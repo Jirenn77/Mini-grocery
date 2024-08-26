@@ -1,0 +1,46 @@
+:root {
+  --background-color: #121212;
+  --card-background-color: #1e1e1e;
+  --text-color: #ffffff;
+  --placeholder-color: rgba(255, 255, 255, 0.6);
+  --button-color: #00BFFF;
+}
+
+body {
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.custom-placeholder::placeholder {
+  color: var(--placeholder-color);
+  opacity: 1; 
+}
+
+.custom-placeholder:-ms-input-placeholder {
+  color: var(--placeholder-color); 
+}
+
+.custom-placeholder::-ms-input-placeholder {
+  color: var(--placeholder-color); 
+}
+
+.category-dried-goods h5 {
+  color: brown;
+}
+
+.category-groceries h5 {
+  color: green;
+}
+
+.category-personal-care h5 {
+  color: purple;
+}
+
+
+.custom-margin-top {
+  margin-top: -60px;
+}
